@@ -1,0 +1,19 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "web": "lite-server",
+    "typescript": "tsc -w",
+    "start": "concurrently -n webserver,typescript -c green,red \"npm run web\" \"npm run typescript\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "lite-server": "^2.6.1"
+  }
+}
