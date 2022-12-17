@@ -61,4 +61,4 @@ function showMatrix(size: number) {
 }
 
 // Draw the matrix and then the diamond on the matrix
-drawDiamond(13, 5);
+drawDiamond(3, 2);
